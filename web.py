@@ -30,6 +30,6 @@ for index, todo in enumerate(todos):
 # on_change triggered when enter is clicked or out of focus
 st.text_input(label="", placeholder="Add new todo...", key="new_todo", on_change=add_todo)
 
-print("Hello")
+# print("Hello")
 
-st.session_state
+# st.session_state
